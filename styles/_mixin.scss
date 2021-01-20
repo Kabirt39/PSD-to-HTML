@@ -1,0 +1,16 @@
+@mixin flexcenter($direction,$background) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: $direction;
+    background: $background;
+}
+
+
+%owl_dot_active_span{
+    width: 11px;
+    height: 11px;
+    background: #949294;
+    border-radius: 0px;
+}
